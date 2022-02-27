@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="style_home.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="medical-outline"></ion-icon></span>
+                            <span class="title">Brand Name</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                            <span class="title">Doctor</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                            <span class="title">Patient</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="business-outline"></ion-icon></span>
+                            <span class="title">Department</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="bed-outline"></ion-icon></span>
+                            <span class="title">Bed Manager</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>
+                            <span class="title">Sales</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="laptop-outline"></ion-icon></span>
+                            <span class="title">Administration</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- main-->
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </div>
+                    <!-- search -->
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                    <!-- user image-->
+                    <div class="user">
+                        <img src="user.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script>
+            //add hovered class in selected list item
+            let list=document.querySelectorAll('.navigation li');
+            function activeLink()
+            {
+                list.forEach((item) =>
+                item.classList.remove('hovered'));
+                this.classList.add('hovered');
+            }
+            list.forEach((item) =>
+            item.addEventListener('mouseover',activeLink));
+        </script>
+    </body>
+</html>
