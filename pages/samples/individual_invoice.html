@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Individual Invoice</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End Plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../../assets/css/style1.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../../assets/icon.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          <a class="sidebar-brand brand-logo" href="index.html"><img src="../../assets/images/hopkins.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="../../assets/images/h.png" alt="logo" /></a>
+        </div>
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
+                  <span class="count bg-success"></span>
+                </div>
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">Abc Xyz</h5>
+                  <span>Admin</span>
+                </div>
+              </div>
+              <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical" style="color: white;"></i></a>
+              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-settings text-primary"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-onepassword  text-info"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-logout text-success"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1 text-small">Log Out</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item nav-category">
+            <span class="nav-link">Navigation</span>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="../../index.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+              <span class="menu-title">Analytics</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="opd_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-stethoscope"></i>
+              </span>
+              <span class="menu-title">Outpatient</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="ipd_landing.html"> 
+              <span class="menu-icon">
+                <i class="mdi mdi-seat-individual-suite"></i>
+              </span>
+              <span class="menu-title">Inpatient</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="pharmacy_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-pill"></i>
+              </span>
+              <span class="menu-title">Pharmacy</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="diagnostics_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-test-tube"></i>
+              </span>
+              <span class="menu-title">Diagnostics</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="payroll_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-cash-multiple"></i>
+              </span>
+              <span class="menu-title">Payroll</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="accounts_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-account-card-details"></i>
+              </span>
+              <span class="menu-title">Accounts</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="settings_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-account-settings"></i>
+              </span>
+              <span class="menu-title">Settings</span>
+            </a>
+          </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="user_management_landing.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-chart-gantt"></i>
+              </span>
+              <span class="menu-title">User Management</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_navbar.html -->
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/h.png" alt="logo" /></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu" style="color: white;"></span>
+            </button>
+            <ul class="navbar-nav navbar-nav-right">
+
+                <li class="nav-item dropdown d-none d-lg-block">
+                    <a class="nav-link btn btn-success create-new-button" href="new_regn.php">New Registration</a>
+                </li>
+
+               
+
+              <li class="nav-item dropdown d-none d-lg-block">
+                <a class="nav-link btn btn-success create-new-button" href="#">Admin Dashboard</a>
+              </li>
+
+              
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="mdi mdi-home"></i>
+                </a>
+                </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Abc Xyz</p>
+                    <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                  </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                  <h6 class="p-3 mb-0">Profile</h6>
+
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-settings text-success"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Settings</p>
+                    </div>
+                  </a>
+
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-lock text-info"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Change Password</p>
+                    </div>
+                  </a>
+
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-logout text-danger"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Log out</p>
+                    </div>
+                  </a>
+
+                </div>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+              <h3 class="page-title"> Individual Invoice </h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="diagnostics_landing.html">Diagnostics</a></li>
+                  <li class="breadcrumb-item"><a href="diagnostics_landing.html">Menu</a></li>
+                  <li class="breadcrumb-item"><a href="invoice_landing.html">Invoice</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Individual Invoice</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="col-12 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Contact Number</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" name="contact" id="contact"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group row">
+                                    <div class="col-sm-4">
+                                        <button class="btn btn-primary" id="search" onclick="">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-container" id="f">
+                            <div class="cs-invoice cs-style1">
+                                <div class="cs-invoice_in" id="download_section">
+                                    <div class="cs-invoice_head cs-type1 cs-mb25">
+                                        <div class="cs-invoice_left">
+                                            <p class="cs-invoice_number cs-primary_color cs-mb5 cs-f16" style="margin-top: 0; line-height: 1.5em;">
+                                                <b class="cs-primary_color" style="font-weight: bold;">Invoice No:</b>
+                                                #219875
+                                            </p>
+                                            <p class="cs-invoice_date cs-primary_color cs-m0" style="line-height: 1.5em;">
+                                                <b class="cs-primary_color" style="font-weight: bold;">Date:</b>
+                                                21.10.2021
+                                            </p>
+                                        </div >
+                                        <div class="cs-invoice_right cs-text_right" style="margin-top: 0; line-height: 1.5em;">
+                                            <div class="cs-logo cs-mb5">
+                                                <img src="../../assets/icon.png" alt="" style="border: 0; width: 100px; height: 100px; vertical-align: middle;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-invoice_head cs-mb10">
+                                        <div class="cs-invoice_left">
+                                            <b class="cs-primary_color" style="font-weight: bold;">Invoice To:</b>
+                                            <p style="margin-top: 0; line-height: 1.5em; display: block; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; color: #777777;">
+                                                zxcvbnmnbvcxxcv
+                                                <br>
+                                                sdfghjkjhgfdfghj
+                                                <br>
+                                                ugyhbefefvbh
+                                                <br>
+                                                qwertyuioplkjhgfdsazxcvbnmpoiuytrewq
+                                            </p>
+                                        </div>
+                                        <div class="cs-invoice_right cs-text_right" style="line-height: 1.5em;">
+                                            <b class="cs-primary_color" style="font-weight: bold;">Pay To:</b>
+                                            <p style="margin-top: 0; line-height: 1.5em; display: block; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; color: #777777;">
+                                                zxcvbnmnbvcxxcv
+                                                <br>
+                                                sdfghjkjhgfdfghj
+                                                <br>
+                                                ugyhbefefvbh
+                                                <br>
+                                                qwertyuioplkjhgfdsazxcvbnmpoiuytrewq
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="cs-table cs-style1">
+                                        <div class="cs-round_border" style="margin-top: 0; line-height: 1.5em;">
+                                            <div class="cs-table_responsive" style="margin-top: 0; line-height: 1.5em;">
+                                                <table style="width: 100%; caption-side: bottom; border-collapse: collapse; display: table; text-indent: intial; border-spacing: 2px; border-color: grey;">
+                                                    <thead style="display: table-header-group; vertical-align: middle; border-color: inherit;">
+                                                        <tr style="display: table-row; vertical-align: inherit; border-color: inherit;">
+                                                            <th class="cs-width_3 cs-semi_bold cs-primary_color cs-focus_bg" style="padding: 10px 15px; line-height: 1.55em; text-align: left;">Item</th>
+                                                            <th class="cs-width_4 cs-semi_bold cs-primary_color cs-focus_bg" style="padding: 10px 15px; line-height: 1.55em; text-align: left;">Description</th>
+                                                            <th class="cs-width_2 cs-semi_bold cs-primary_color cs-focus_bg" style="padding: 10px 15px; line-height: 1.55em; text-align: left;">Qty</th>
+                                                            <th class="cs-width_1 cs-semi_bold cs-primary_color cs-focus_bg" style="padding: 10px 15px; line-height: 1.55em; text-align: left;">Price</th>
+                                                            <th class="cs-width_2 cs-semi_bold cs-primary_color cs-focus_bg cs-text_right" style="padding: 10px 15px; line-height: 1.55em; ">Total</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody style="display: table-row-group; vertical-align: middle; border-color: inherit;">
+                                                        <tr style="display: table-row; vertical-align: inherit; border-color: inherit;">
+                                                            <td class="cs-width_3" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">App Development</td>
+                                                            <td class="cs-width_4" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">Mobile & Ios Application Development</td>
+                                                            <td class="cs-width_2" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">2</td>
+                                                            <td class="cs-width_1" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">$460</td>
+                                                            <td class="cs-width_2 cs-text_right" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">$920</td>
+                                                        </tr>
+                                                        <tr style="display: table-row; vertical-align: inherit; border-color: inherit;">
+                                                            <td class="cs-width_3" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">App Development</td>
+                                                            <td class="cs-width_4" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">Mobile & Ios Application Development</td>
+                                                            <td class="cs-width_2" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">2</td>
+                                                            <td class="cs-width_1" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">$460</td>
+                                                            <td class="cs-width_2 cs-text_right" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">$920</td>
+                                                        </tr>
+                                                        <tr style="display: table-row; vertical-align: inherit; border-color: inherit;">
+                                                            <td class="cs-width_3" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">App Development</td>
+                                                            <td class="cs-width_4" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">Mobile & Ios Application Development</td>
+                                                            <td class="cs-width_2" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">2</td>
+                                                            <td class="cs-width_1" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">$460</td>
+                                                            <td class="cs-width_2 cs-text_right" style="padding: 10px 15px; line-height: 1.55em; display: table-cell; vertical-align: inherit; border-top: 1px solid #eaeaea; color: #777777;">$920</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="cs-invoice_footer cs-border_top" style="margin-top: 0; line-height: 1.5em; display: flex; box-sizing: border-box;">
+                                                <div class="cs-left_footer cs-mobile_hide" style="box-sizing: border-box; display: block;">
+                                                    <p class="cs-mb0" style="margin-top: 0; line-height: 1.5em; margin-inline-start: 0px; margin-inline-end: 0px;">
+                                                        <b class="cs-primary_color" style="font-weight: bold;">Additional Information:</b>
+                                                    </p>
+                                                    <p class="cs-m0" style="margin-top: 0; line-height: 1.5em; margin-block-start: 0.5em; margin-inline-start: 0px; margin-inline-end: 0px; color: #777777;">
+                                                        At check in you may need to present the credit 
+                                                        <br>
+                                                        card used for payment of this ticket.
+                                                    </p>
+                                                </div>
+                                                <div class="cs-right_footer" style="border-color: grey;">
+                                                    <table style="width: 100%; caption-side: bottom; border-collapse: collapse; display: table; text-indent: initial; border-spacing: 2px; border-color: grey; border-left: 1px solid #eaeaea;">
+                                                        <tbody style="display: table-row-group; vertical-align: middle; border-color: inherit;">
+                                                            <tr class="cs-border_left" style="display: table-row; vertical-align: inherit; border-color: inherit;">
+                                                                <td class="cs-width_3 cs-semi_bold cs-primary_color cs-focus_bg" style="padding: 10px 15px; line-height: 1.55em;">Subtotal</td>
+                                                                <td class="cs-width_3 cs-semi_bold cs-focus_bg cs-primary_color cs-text_right" style="padding: 10px 15px; line-height: 1.55em;">$1140</td>
+                                                            </tr>
+                                                            <tr class="cs-border_left" style="display: table-row; vertical-align: inherit; border-color: inherit; border-top: 1px solid #eaeaea;">
+                                                                <td class="cs-width_3 cs-semi_bold cs-primary_color cs-focus_bg" style="padding: 10px 15px; line-height: 1.55em;">Subtotal</td>
+                                                                <td class="cs-width_3 cs-semi_bold cs-focus_bg cs-primary_color cs-text_right" style="padding: 10px 15px; line-height: 1.55em;">$1140</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-invoice_footer" style="margin-top: 0; line-height: 1.5em; display: flex; box-sizing: border-box;">
+                                            <div class="cs-left_footer cs-mobile_hide"></div>
+                                            <div class="cs-right_footer">
+                                                <table style="width: 100%; caption-side: bottom; border-collapse: collapse; display: table; text-indent: initial; border-spacing: 2px; border-color: grey;">
+                                                    <tbody style="display: table-row-group; vertical-align: middle; border-color: inherit;">
+                                                        <tr class="cs-border_none" style="display: table-row; vertical-align: inherit;">
+                                                            <td class="cs-width_3 cs-border_top_0 cs-bold cs-f16 cs-primary_color" style="padding: 10px 15px; line-height: 1.55em;">Total Amount</td>
+                                                            <td class="cs-width_3 cs-border_top_0 cs-bold cs-f16 cs-primary_color cs-text_right" style="padding: 10px 15px; line-height: 1.55em;">$1140</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br><br>
+                                    <div class="cs-note" style="margin-top: 0; line-height: 1.5em; display: flex;">
+                                         <div class="cs-note_left" style="color: #777777; font-size: xx-large; display: flex;">
+                                            <i class="mdi mdi-receipt"></i>
+                                         </div>
+                                         <div class="cs-note_right">
+                                             <p class="cs-mb0">
+                                                <b class="cs-primary_color" style="font-weight: bold;">Additional Information:</b>
+                                             </p>
+                                             <p class="cs-m0" style="color: #777777;">
+                                                Here we can write a additional notes for the client to get a better understanding of this invoice.
+                                             </p>
+                                         </div>
+                                    </div>
+                                </div>
+                                <br><br><br>
+                                <div style="padding-left: 550px;">
+                                    <button type="button" class="btn btn-success btn-icon-text"><i class="mdi mdi-printer btn-icon-prepend"></i> Print </button>
+                                    <button type="button" class="btn btn-warning btn-icon-text"><i class="mdi mdi-download btn-icon-prepend"></i> Download </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:../../partials/_footer.html -->
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <script src="../../assets/js/settings.js"></script>
+    <script src="../../assets/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <!-- End custom js for this page -->
+  </body>
+  <script>
+      const search = document.querySelector('#search');
+
+      window.onload = function() {
+    document.getElementById("f").style.display = "none";
+
+    };
+
+      search.addEventListener('click', () => {const cs = document.getElementById('f');
+
+      if (cs.style.display === 'none') {
+        cs.style.display = 'block';
+  } else {
+    cs.style.display = 'none';
+  }
+});
+</script>
+</html>
