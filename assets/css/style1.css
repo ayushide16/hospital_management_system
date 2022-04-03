@@ -21126,11 +21126,209 @@
         width: 100%; } }
   
   .content-wrapper {
-    background: #f1f1f1;
+    background: #f5f7ff;
     padding: 1.875rem 1.75rem;
     width: 100%;
     -webkit-flex-grow: 1;
     flex-grow: 1; }
-  
+
+    .cs-invoice.cs-style1
+    {
+      border-radius: 10px;
+      padding: 30px;
+    }
+
+    .cs-invoice.cs-style1 .cs-invoice_head.cs-type1
+    {
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .cs-invoice.cs-style1 .cs-invoice_head 
+    {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    .cs-mb25
+    {
+      margin-bottom: 25px;
+    }
+
+    .cs-primary_color
+    {
+      color: #111111;
+    }
+
+    .cs-mb5
+    {
+      margin-bottom: 5px;
+    }
+
+    .cs-f16
+    {
+      font-size: 16px;
+    }
+
+    cs-m0
+    {
+      margin: 0px;
+    }
+
+    .cs-text_right
+    {
+      text-align: right;
+    }
+
+    .cs-mb5
+    {
+      margin-bottom: 5px;
+    }
+
+    .cs-invoice.cs-style1 .cs-invoice_left
+    {
+      max-width: 55%;
+    }
+
+    .cs-round_border
+    {
+      border: 1px solid #eaeaea;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .cs-table_responsive
+    {
+      overflow-x: auto;
+    }
+
+    .cs-table_responsive > table
+    {
+      min-width: 600px;
+    }
+
+    .cs-width_3
+    {
+      width: 25%;
+    }
+
+    .cs-semi_bold
+    {
+      font-weight: 600;
+    }
+
+    .cs-width_4
+    {
+      width: 33.33333333%;
+    }
+
+    .cs-width_2
+    {
+      width: 16.66666667%;
+    }
+
+    .cs-width_1
+    {
+      width: 8.33333333%;
+    }
+
+    .cs-focus_bg
+    {
+      background: #f6f6f6;
+    }
+
+    .cs-invoice.cs-style1 .cs-invoice_footer
+    {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .cs-border_top
+    {
+      border-top: 1px solid #eaeaea;
+    }
+
+    .cs-invoice.cs-style1 .cs-left_footer
+    {
+      width: 55%;
+      padding: 10px 15px;
+    }
+
+    .cs-invoice.cs-style1 .cs-right_footer
+    {
+      width: 46%;
+    }
+
+    .cs-invoice.cs-style1 .cs-invoice_footer table
+    {
+      margin-top: 0px;
+    }
+
+    .cs-border_left
+    {
+      border-left: 1px solid #eaeaea;
+    }
+
+    .cs-m0
+    {
+      margin: 0px;
+    }
+
+    .cs-mb0
+    {
+      margin: -0.5px;
+    }
+
+    .cs-border_none
+    {
+      border: none;
+    }
+
+    .cs-border_top_0
+    {
+      border-top: 0;
+    }
+
+    .cs-bold
+    {
+      font-weight: 700;
+    }
+
+    .cs-f16
+    {
+      font-size: 16px;
+    }
+
+    .cs-invoice.cs-style1 .cs-note_left
+    {
+      margin-right: 10px;
+      margin-top: 6px;
+      margin-left: -5px;
+    }
+
+    .cs-invoice.cs-style1 .cs-note
+    {
+      -webkit-box-align: start;
+      align-items: flex-start;
+      margin-top: 40px;
+    }
+
+    .cs-invoice_btns
+    {
+      -webkit-box-pack: center;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+
+
   /*# sourceMappingURL=maps/style.css.map */
   
