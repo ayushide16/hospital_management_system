@@ -70,7 +70,8 @@
 						}
 						else
 						{
-							echo "Wrong username or password";
+							$result = '<p style="position:absolute; bottom:70px; right: 210px; color: #555; font-weight: bold">Wrong username or password</p>';
+							echo $result;
 						}
 						$conn -> close();
 					}		
